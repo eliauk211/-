@@ -1,0 +1,72 @@
+* {
+  margin: 0%;
+  padding: 0;
+  text-decoration: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 1200px;
+  background: url(../资源/images/login_bg.jpg) no-repeat center;
+  background-size: cover;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 330px;
+  background: white;
+}
+.container .title {
+  height: 60px;
+  background: url(../资源/images/login_title.png) no-repeat center;
+}
+.container .denglu .layui-form {
+  padding: 0 30px;
+}
+.container .denglu .layui-form .layui-form-item {
+  position: relative;
+}
+.container .denglu .layui-form .layui-form-item i {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+}
+.container .denglu .layui-form .layui-form-item input {
+  padding-left: 35px;
+}
+.container .denglu .a {
+  width: 100%;
+}
+.container .denglu .a a {
+  float: right;
+}
+.container .zhuce {
+  display: none;
+}
+.container .zhuce .layui-form {
+  padding: 0 30px;
+}
+.container .zhuce .layui-form .layui-form-item {
+  position: relative;
+}
+.container .zhuce .layui-form .layui-form-item i {
+  position: absolute;
+  top: 10px;
+  left: 13px;
+}
+.container .zhuce .layui-form .layui-form-item input {
+  padding-left: 35px;
+}
+.container .zhuce .a {
+  width: 100%;
+}
+.container .zhuce .a a {
+  float: right;
+}
+.container a {
+  color: #94a6aa;
+}
