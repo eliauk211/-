@@ -7,6 +7,18 @@ $(function () {
         $('.denglu').hide();
         $('.zhuce').show();
     })
+    $('#zc').on('submit',function(e){
+        e.preventdefault();
+        $.ajax({
+            type:post,
+            url:'http://ajax.frontend.itheima.net/api/reguser',
+            data:{username:$('#zczh').val(),password:$("#zcmm").val()},
+            success:function(e){
+                console.log(e);
+            }
+        })
+        //$(this).sealize()
+    })
 })
 layui.use('form', function () {
     var form = layui.form;
